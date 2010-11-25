@@ -55,7 +55,7 @@
     set showmode                   " display the current mode
 
     set cursorline              " highlight current line
-    color wombat256
+    " color wombat256
     hi cursorline guibg=#333333 " highlight bg color of current line
 
     if has('cmdline_info')
@@ -157,13 +157,6 @@
 	
 	" NERDTree {
       let NERDTreeChDirMode = 2
-	" }
-
-	" Vimwiki {
-      let wiki_index = {}
-      let wiki_index.path = '~/Dropbox/Text\ Files/Vim\ Wikis/'
-
-      let g:vimwiki_list = [wiki_index]
 	" }
 
 " }
